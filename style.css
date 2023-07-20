@@ -138,17 +138,17 @@ font-weight: 500;
 .btn-go{
 background: #4EC5F7;
 }
-/* online games section */
-.online-games{
+/* Online Games Funny Videos section*/
+.section-games
+{
 justify-content: center;
 text-align: center;
 background: #FFF;
-
-
 }
-.online-span{
+.section-games-span
+{
     color: #0B0223;
-    text-align: right;
+    text-align: center;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -157,95 +157,99 @@ background: #FFF;
     font-weight: 700;
 }
 
-.online-content{
+.section-games-content{
     color: #0B0223;
     text-align: center;
     font-size: 48px;
     font-weight: 700;
 }
-.online-text{
+.section-games-text
+{
 color: #534C64;
 text-align: center;
 font-size: 18px;
 font-weight: 400;
 margin-top: -30px;
 }
-.online-img {
+.section-games-img {
     border-radius: 16px;
    display: flex;
    gap: 5px;
-   margin: 10px 85px;
+   margin: 10px 200px;
    text-align: center;
-   
+   gap: 20px;
 
 }
-.online-img img {
-    width: 285px;
-    height: 300px;
-}
-.online-img p {
+
+.section-games-img p
+ {
     color: #534C64;
-font-size: 16px;
-font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-                        /*  Play Instantly style start */
+          /*  Play Instantly style section */
 
    
 .section{
 display: flex;
 justify-content: center;
 margin: 30px 120px;
-
 }
 
-.div-section-content{
-    text-align: right;
+.section-content-play
+{
+text-align: right;
 font-size: 48px;
 font-weight: 700;
 justify-content: center;
 align-items: center;
 padding: 120px 60px;
 width: 353px;
-
 }
-.span-color{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+.section-content-play-span
+{
+ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.div-section-container{
-    color: #534C64;
+.section-content-play-text
+{
+color: #534C64;
 text-align: right;
 font-size: 18px;
 font-weight: 400;
-
 width: 353px;
 margin-top: -120px;
 margin-left: 50px;
-
 }
-.img-big{
+.img-big
+{
     width: 634px;
     height: 550px;
     object-fit:cover ;
+    position: absolute;
     
 }
-.img-relative{
+.img-small
+{
     position: relative;
-    bottom: 220px;
+    bottom: -260px;
     
 }
-/* grid section style */
-.gird-section{
+/* card section style */
+.card-section
+{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 50px;
     margin-left: 120px;
-    margin-top: -200px;
+    margin-top: 220px;
+    
 }
-.grid-content{
+.grid-content
+{
 align-items: center;
 justify-content: center;
 text-align: center;
@@ -254,9 +258,9 @@ padding: 10px;
 width: 290px;
 height: 50px;
 border-radius: 50px;
-
 }
-.grid-content a {
+.grid-content a 
+{
 text-decoration: none;
 text-align: center;
 color: #0B0223;
@@ -266,19 +270,22 @@ padding: 12px;
 line-height: 20px;
 }
 
-.gird-section :hover {
-    border-radius: 50px;
-    color: #1d0bc4;
-    background-color: #FF42A5;
+.gird-section :hover 
+{
+ border-radius: 50px;
+ color: #1d0bc4;
+ background-color: #FF42A5;
 }
 
 
 /* footer style */
 
-.fooler-container{
+.footer-container
+{
     background: #0a090f;
 }
-.footer-gamier-section{
+.footer-gamier-section
+{
     display: flex;
     text-align: center;
     font-size: 45px;
@@ -286,7 +293,8 @@ line-height: 20px;
     justify-content: center;
     align-items: center;
 }
-.footer-logo{
+.footer-logo
+{
     color: #FFF;
     font-size: 45px;
     font-weight: 700;
@@ -297,9 +305,10 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.footer-line{
-    display: flex;
-    justify-content: center;
+.footer-line
+{
+ display: flex;
+ justify-content: center;
 color: #FFF;
 text-align: center;
 font-size: 18px;
@@ -308,43 +317,35 @@ padding: 10px;
 margin-top: -35px;
 gap: 60px;
 }
-.footer-img-section{
-    display: flex;
-    justify-content: center;
+.footer-img-section
+{
+display: flex;
+justify-content: center;
 text-align: center;
 padding: 10px;
 gap: 60px;
 }
 
-.footer-3rdline-section{
-    display: flex;
-    justify-content: center;
-    color: #ffffff99;
+.footer-3rdline-section
+{
+display: flex;
+justify-content: center;
+color: #ffffff99;
 text-align: center;
 font-size: 16px;
 font-weight: 500;
 padding: 10px;
 gap: 60px;
 }
- .footer-3rdline-section p{
-    color: #ffffff99;
-    justify-content: center;
+ .footer-3rdline-section p
+ {
+color: #ffffff99;
+justify-content: center;
 text-align: center;
 font-size: 16px;
 font-weight: 500;
 padding: 10px;
-
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

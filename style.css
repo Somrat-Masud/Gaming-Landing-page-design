@@ -143,7 +143,7 @@ background: #4EC5F7;
 {
 justify-content: center;
 text-align: center;
-background: #FFF;
+background: #FFF; 
 }
 .section-games-span
 {
@@ -174,11 +174,8 @@ margin-top: -30px;
 .section-games-img {
     border-radius: 16px;
    display: flex;
-   gap: 5px;
-   margin: 10px 200px;
+   gap: 10px;
    text-align: center;
-   gap: 20px;
-
 }
 
 .section-games-img p
@@ -188,56 +185,67 @@ margin-top: -30px;
     font-weight: 500;
 }
 
-          /*  Play Instantly style section */
-
-   
-.section{
-display: flex;
-justify-content: center;
-margin: 30px 120px;
-margin-bottom: 240px;
-}
-
-.section-content-play
+/* Play-games-online-section */
+.online-pay-games
 {
-text-align: right;
-font-size: 48px;
-font-weight: 700;
-justify-content: center;
-align-items: center;
-padding: 120px 60px;
-width: 353px;
+    min-height: 500px;
+    padding:20px 0;
 }
-.section-content-play-span
+.online-pay-games-container
 {
- background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
 }
-.section-content-play-text
-{
-color: #534C64;
-text-align: right;
-font-size: 18px;
-font-weight: 400;
-width: 353px;
-margin-top: -120px;
-margin-left: 50px;
-}
-.img-big
-{
-    width: 634px;
-    height: 550px;
-    object-fit:cover ;
-    position: absolute;
-    
-}
-.img-small
-{
+.online-pay-games-container-img{
+    width: 50%;
     position: relative;
-    bottom: -260px;
-    
+}
+.online-pay-games-container-img img
+{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.online-pay-games-number
+{
+    width: 318px;
+    height: 265px;
+    position: absolute;
+    left: 60%;
+    top:60%;
+}
+
+.online-pay-games-text
+{
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+    justify-content: center;
+}
+.online-pay-games-content-text
+{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+.online-pay-games-span-text{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-pay-games-span
+{
+    width: 426px;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /* card section style */
 .card-section
@@ -246,7 +254,8 @@ margin-left: 50px;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 50px;
     margin-left: 120px;
-    margin-top: 240px;
+   margin-top: 120px;
+  
     
 }
 .grid-content
@@ -268,14 +277,14 @@ color: #0B0223;
 font-size: 20px;
 font-weight: 600;
 padding: 12px;
-line-height: 20px;
 }
 
-.gird-section :hover 
+.card-section :hover 
 {
  border-radius: 50px;
  color: #1d0bc4;
  background-color: #FF42A5;
+ border: 2px solid aqua;
 }
 
 
@@ -380,11 +389,9 @@ padding: 10px;
     .banner-section{
         flex-direction: column;
         width: 100%;
-        
-        
+        margin: 120px 30px; 
     }
     .banner-content{
-
     }
     .banner-right-side{
         flex-direction: column;
@@ -394,10 +401,55 @@ padding: 10px;
       flex-direction: column;
       width: 100%;
     }
-   
     .banner-left-side img{
         width: 100%;
-        margin-left: 0;
-      
     }
+    /* online funny video response */
+    .section-games-img{
+        flex-direction: column;
+    }
+
+    /* online play games responsive */
+ 
+ .online-pay-games-container
+ {
+        flex-direction: column;
+ }
+
+.online-pay-games-number
+{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+}
+        /* card section responsive  */
+ .card-section
+{
+    flex-direction: grid;
+    grid-template-columns: repeat(3, 3fr);
+    margin-bottom: 20px;
+    margin-left: 10px;
+   margin-top: 20px;
+}
+
+/* footer responsive */
+/* .footer-gamier-section{
+    flex-direction: column;
+} */
+
+.footer-container{
+    flex-direction: grid;
+    
+}
+.footer-line{
+    flex-direction: row-reverse;
+   
+
+}
+.footer-img-section{
+    flex-direction: row-reverse;
+    width: 100%;
+}
 }
